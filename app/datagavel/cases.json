@@ -1,0 +1,292 @@
+[
+  {
+    "id": "WM-2024-0342",
+    "company": "Walmart",
+    "date_filed": "2024-01-15",
+    "location": {
+      "city": "Phoenix",
+      "state": "Arizona",
+      "store_id": "Store #4285"
+    },
+    "plaintiff": {
+      "age": 67,
+      "gender": "Female",
+      "occupation": "Retired Teacher"
+    },
+    "case_details": {
+      "type": "Slip and Fall",
+      "description": "Customer slipped on spilled liquid in grocery aisle that had no warning sign",
+      "injuries": ["Broken hip", "Back strain", "Minor concussion"],
+      "damages_sought": 750000,
+      "status": "Pending",
+      "insurance_involved": true
+    },
+    "legal": {
+      "judge": "Hon. Sarah Martinez",
+      "court": "Maricopa County Superior Court",
+      "plaintiff_attorney": "Johnson & Associates",
+      "defendant_attorney": "Wallace Corporate Law Group"
+    }
+  },
+  {
+    "id": "FDX-2023-1187",
+    "company": "FedEx",
+    "date_filed": "2023-11-28",
+    "location": {
+      "city": "Chicago",
+      "state": "Illinois",
+      "intersection": "Michigan Ave & Lake St"
+    },
+    "plaintiff": {
+      "age": 34,
+      "gender": "Male",
+      "occupation": "Software Developer"
+    },
+    "case_details": {
+      "type": "Vehicle Collision",
+      "description": "FedEx delivery truck ran red light and struck plaintiff's vehicle",
+      "injuries": ["Whiplash", "Fractured ribs", "PTSD"],
+      "damages_sought": 1250000,
+      "status": "In Settlement Negotiations",
+      "insurance_involved": true
+    },
+    "legal": {
+      "judge": "Hon. Michael Richardson",
+      "court": "Cook County Circuit Court",
+      "plaintiff_attorney": "Davidson Injury Law",
+      "defendant_attorney": "Corporate Defense Partners LLP"
+    }
+  },
+  {
+    "id": "TGT-2024-0089",
+    "company": "Target",
+    "date_filed": "2024-02-01",
+    "location": {
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "store_id": "Store #T-1422"
+    },
+    "plaintiff": {
+      "age": 28,
+      "gender": "Female",
+      "occupation": "Nurse"
+    },
+    "case_details": {
+      "type": "Product Liability",
+      "description": "Defective kitchen appliance caused severe burns",
+      "injuries": ["Third-degree burns", "Permanent scarring"],
+      "damages_sought": 2000000,
+      "status": "Discovery Phase",
+      "insurance_involved": true
+    },
+    "legal": {
+      "judge": "Hon. Patricia Wong",
+      "court": "Hennepin County District Court",
+      "plaintiff_attorney": "Consumer Rights Law Firm",
+      "defendant_attorney": "Miller & Associates"
+    }
+  },
+  {
+    "id": "MCD-2023-2456",
+    "company": "McDonald's",
+    "date_filed": "2023-09-15",
+    "location": {
+      "city": "Miami",
+      "state": "Florida",
+      "store_id": "Location #MC-789"
+    },
+    "plaintiff": {
+      "age": 42,
+      "gender": "Male",
+      "occupation": "Construction Worker"
+    },
+    "case_details": {
+      "type": "Food Safety",
+      "description": "Severe food poisoning from contaminated food",
+      "injuries": ["Hospitalization", "Lost wages", "Ongoing health issues"],
+      "damages_sought": 500000,
+      "status": "Trial Scheduled",
+      "insurance_involved": true
+    },
+    "legal": {
+      "judge": "Hon. Robert Torres",
+      "court": "Miami-Dade Circuit Court",
+      "plaintiff_attorney": "Food Safety Legal Group",
+      "defendant_attorney": "Corporate Shield Law"
+    }
+  },
+  {
+    "id": "CVS-2024-0156",
+    "company": "CVS Health",
+    "date_filed": "2024-01-05",
+    "location": {
+      "city": "Boston",
+      "state": "Massachusetts",
+      "store_id": "Store #4467"
+    },
+    "plaintiff": {
+      "age": 75,
+      "gender": "Male",
+      "occupation": "Retired"
+    },
+    "case_details": {
+      "type": "Prescription Error",
+      "description": "Wrong medication dispensed leading to adverse reaction",
+      "injuries": ["Severe allergic reaction", "Hospitalization"],
+      "damages_sought": 1500000,
+      "status": "Pending",
+      "insurance_involved": true
+    },
+    "legal": {
+      "judge": "Hon. Elizabeth Chen",
+      "court": "Suffolk County Superior Court",
+      "plaintiff_attorney": "Medical Malpractice Associates",
+      "defendant_attorney": "Healthcare Defense Group"
+    }
+  },
+  {
+    "id": "HD-2023-0789",
+    "company": "Home Depot",
+    "date_filed": "2023-12-10",
+    "location": {
+      "city": "Atlanta",
+      "state": "Georgia",
+      "store_id": "Store #0472"
+    },
+    "plaintiff": {
+      "age": 52,
+      "gender": "Female",
+      "occupation": "Interior Designer"
+    },
+    "case_details": {
+      "type": "Falling Merchandise",
+      "description": "Improperly stacked lumber fell on customer",
+      "injuries": ["Shoulder injury", "Neck trauma", "Chronic pain"],
+      "damages_sought": 875000,
+      "status": "Mediation",
+      "insurance_involved": true
+    },
+    "legal": {
+      "judge": "Hon. James Wilson",
+      "court": "Fulton County Superior Court",
+      "plaintiff_attorney": "Injury Law Experts",
+      "defendant_attorney": "Retail Defense Associates"
+    }
+  },
+  {
+    "id": "AMZN-2024-0234",
+    "company": "Amazon",
+    "date_filed": "2024-02-15",
+    "location": {
+      "city": "Seattle",
+      "state": "Washington",
+      "incident_type": "Delivery"
+    },
+    "plaintiff": {
+      "age": 31,
+      "gender": "Female",
+      "occupation": "Graphic Designer"
+    },
+    "case_details": {
+      "type": "Property Damage",
+      "description": "Delivery drone crashed through house window",
+      "injuries": ["Property damage", "Emotional distress"],
+      "damages_sought": 250000,
+      "status": "Pre-trial",
+      "insurance_involved": true
+    },
+    "legal": {
+      "judge": "Hon. David Chang",
+      "court": "King County Superior Court",
+      "plaintiff_attorney": "Tech Law Partners",
+      "defendant_attorney": "Innovation Defense Group"
+    }
+  },
+  {
+    "id": "KR-2023-1654",
+    "company": "Kroger",
+    "date_filed": "2023-10-20",
+    "location": {
+      "city": "Cincinnati",
+      "state": "Ohio",
+      "store_id": "Store #K-892"
+    },
+    "plaintiff": {
+      "age": 45,
+      "gender": "Male",
+      "occupation": "Account Manager"
+    },
+    "case_details": {
+      "type": "Food Allergy",
+      "description": "Incorrect food labeling led to severe allergic reaction",
+      "injuries": ["Anaphylactic shock", "Hospital stay"],
+      "damages_sought": 950000,
+      "status": "Settlement Offered",
+      "insurance_involved": true
+    },
+    "legal": {
+      "judge": "Hon. Mary Anderson",
+      "court": "Hamilton County Court",
+      "plaintiff_attorney": "Consumer Protection Legal",
+      "defendant_attorney": "Retail Law Defense"
+    }
+  },
+  {
+    "id": "UPS-2024-0567",
+    "company": "UPS",
+    "date_filed": "2024-01-30",
+    "location": {
+      "city": "Houston",
+      "state": "Texas",
+      "incident_type": "Delivery"
+    },
+    "plaintiff": {
+      "age": 29,
+      "gender": "Male",
+      "occupation": "Restaurant Owner"
+    },
+    "case_details": {
+      "type": "Property Damage",
+      "description": "Delivery truck backed into restaurant storefront",
+      "injuries": ["Business interruption", "Property damage"],
+      "damages_sought": 325000,
+      "status": "Initial Hearing",
+      "insurance_involved": true
+    },
+    "legal": {
+      "judge": "Hon. Thomas Rodriguez",
+      "court": "Harris County District Court",
+      "plaintiff_attorney": "Business Law Group",
+      "defendant_attorney": "Logistics Defense Team"
+    }
+  },
+  {
+    "id": "COST-2023-0987",
+    "company": "Costco",
+    "date_filed": "2023-11-05",
+    "location": {
+      "city": "San Diego",
+      "state": "California",
+      "store_id": "Store #486"
+    },
+    "plaintiff": {
+      "age": 58,
+      "gender": "Female",
+      "occupation": "Real Estate Agent"
+    },
+    "case_details": {
+      "type": "Shopping Cart Accident",
+      "description": "Defective shopping cart collapsed causing injury",
+      "injuries": ["Knee injury", "Wrist sprain"],
+      "damages_sought": 400000,
+      "status": "Discovery Phase",
+      "insurance_involved": true
+    },
+    "legal": {
+      "judge": "Hon. Steven Brooks",
+      "court": "San Diego Superior Court",
+      "plaintiff_attorney": "Consumer Advocacy Law",
+      "defendant_attorney": "Retail Defense Specialists"
+    }
+  }
+]

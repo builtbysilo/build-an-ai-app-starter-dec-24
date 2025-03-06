@@ -1,18 +1,27 @@
 "use client";
 
-import { useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
-import { CalendarAppointment } from "./calendar-appointment";
+import {useState, useEffect} from "react";
+import {Card, CardContent, CardHeader, CardTitle} from "@/components/ui/card";
+import {Input} from "@/components/ui/input";
+import {Button} from "@/components/ui/button";
+import {AppointmentDetails, CalendarAppointment} from "./calendar-appointment";
+import {extractAppointment} from "./actions";
 
 export default function Page() {
   const [loading, setLoading] = useState(false);
+  const [appointment, setAppointment] = useState<AppointmentDetails | null>(
+    null
+  );
+  useEffect(() => {
+    console.log(appointment);
+  }, [appointment]);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
-    // extract appointment
+    const formData = new FormData(e.target as HTMLFormElement);
+    const input = formData.get("appointment") as string;
+    setAppointment(await extractAppointment(input));
     setLoading(false);
   };
 
@@ -36,7 +45,7 @@ export default function Page() {
             </form>
           </CardContent>
         </Card>
-        <CalendarAppointment appointment={null} />
+        <CalendarAppointment appointment={appointment} />
       </div>
     </div>
   );
